@@ -6,11 +6,11 @@ This is an inspired post. It is essentially represents the "aha" moment I had wi
 
 Later in this post we will describe exactly where containers are and the differences between containers and images. For the moment let’s just agree that containers make it very easy to package up web applications and run them against a large distributed cluster.
 
-### DC/OS from Mesosphere
+### DC/OS - Open Source Cluster Management
 
 DC/OS makes it easy to deploy and run stateful or stateless distributed workloads including Docker containers, Big Data, and traditional apps. DC/OS abstracts your large Azure-based cluster into a single computer, pooling distributed workloads and simplifying rollout and operations.
 
-This post will focus on DC/OS from Mesosphere. 
+This post will focus on DC/OS
 
 There have been a couple of seminal papers that have advanced the state-of-the-art, such as this one, whose lead author is the founder of Mesosphere. The purpose of this post is not to drive into all the details that inspired the creation of DC/OS. This white paper is very interesting because it describes the motivations behind the abstraction of scheduling frameworks, such as Hadoop or MPI.
 
@@ -18,7 +18,7 @@ There have been a couple of seminal papers that have advanced the state-of-the-a
 
 _Figure 1:  Mesos: A Platform for Fine-Grained Resource Sharing in the Data Center_
 
-### Capabilities of Mesosphere
+### Capabilities of DC/OS
 
 These capabilities include:
 
@@ -90,7 +90,7 @@ The goal is to go 0 to 60 faster than a Tesla in beast mode. Despite the many wa
 
 ## Step 1 of 13 - The Azure Container Service - Building out a Docker Swarm or DC/OS Cluster
 
-The Azure Container Service (ACS) provides a very simple way to build out a Docker Swarm or Mesosphere DC/OS cluster. It is 100% Open Source. You select the size, the number of hosts, and choice of orchestrator tools, and Container Service handles everything else.
+The Azure Container Service (ACS) provides a very simple way to build out a Docker Swarm or DC/OS cluster. It is 100% Open Source. You select the size, the number of hosts, and choice of orchestrator tools, and Container Service handles everything else.
 
 Choose the tools and solution that best suits your needs for Docker container orchestration and scale operations. Use the Mesos-based DC/OS or use Docker Swarm and Compose for a pure Docker experience.
 
