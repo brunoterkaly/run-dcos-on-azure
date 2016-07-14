@@ -289,7 +289,8 @@ https://github.com/brunoterkaly/building-restful-service-with-java/blob/master/R
 
 Let's address some of the characteristics of the application we wish to containerized and run across the DC/OS cluster:
 
-- Notice that it is a web-based application built with Eclipse
+- 
+-  it is a web-based application built with Eclipse
 - It is simply an HTTP get request
 - It passes a parameter (course=100)
 - This means it will retrieve the course with the id of 100
@@ -509,7 +510,7 @@ _Figure 28: The Docker Build command in action_
 
 Now that our image is built, we can issue a command that actually verify its existence. But there's more to this than just verifying its existence. As explained previously, once the image was built, the image ID was automatically created. This image ID is needed to define a label and version number, which is necessary for pushing the image to be uploaded up to the Docker Registry (hub.docker.com).
 
-Notice the **image id **does match (**65b919f9b22c**).
+Notice the **image id** does match (65b919f9b22c).
 
 
 
