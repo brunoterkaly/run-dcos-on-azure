@@ -1,4 +1,4 @@
-# Containerizing Applications in Azure using Mesosphere
+# Containerizing Applications in Azure using DC/OS
 
 ## Running a Java Based Web Application and a RESTful Service using Jersey
 
