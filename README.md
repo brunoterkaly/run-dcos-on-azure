@@ -2,7 +2,7 @@
 
 ## Running a Java Based Web Application and a RESTful Service using Jersey
 
-This is an inspired post. It is essentially represents the "aha" moment I had with containers and how amazingly straightforward it was to run restful services across a cluster of almost any size.
+This is an inspired post. It essentially represents the "aha" moment I had with containers and how amazingly straightforward it was to run restful services across a cluster of almost any size.
 
 Later in this post we will describe exactly where containers are and the differences between containers and images. For the moment let’s just agree that containers make it very easy to package up web applications and run them against a large distributed cluster.
 
