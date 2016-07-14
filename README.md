@@ -86,7 +86,7 @@ The goal is to go 0 to 60 faster than a Tesla in beast mode. Despite the many wa
 - **Step 9 -** Tagging and image (applying a version number)
 - **Step 10 -** Pushing the new image to hub.docker.com
 - **Step 11 -** Viewing the image at hub.docker.com
-- **Step 12 -** Running the image from hub.docker.com using Marathon.json file
+- **Step 12 -** Running the image from hub.docker.com using the Marathon.json file
 - **Step 13 -** Viewing, monitoring, and scaling the app through Marathon, Mesos, and the DC/OS Portal
 
 
