@@ -12,7 +12,7 @@ DC/OS makes it easy to deploy and run stateful or stateless distributed workload
 
 This post will focus on DC/OS
 
-There have been a couple of seminal papers that have advanced the state-of-the-art, such as this one, whose lead author is the founder of Mesosphere. The purpose of this post is not to drive into all the details that inspired the creation of DC/OS. This white paper is very interesting because it describes the motivations behind the abstraction of scheduling frameworks, such as Hadoop or MPI.
+There have been a couple of seminal papers that have advanced the state-of-the-art, such as this one, whose lead author is the founder of Mesosphere. The purpose of this post is not to dive into all the details that inspired the creation of DC/OS. This white paper is very interesting because it describes the motivations behind the abstraction of scheduling frameworks, such as Hadoop or MPI.
 
 ![](./images/mesospaper.png)
 
