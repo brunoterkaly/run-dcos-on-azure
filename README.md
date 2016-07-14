@@ -691,7 +691,18 @@ http://bruno-mesosagents.eastus2.cloudapp.azure.com/SimpleRestfulService/rest/az
 
 You should get the exact same result as explained previously, in **Calling the Restful Service**.
 
+You can also use curl to execute a restful query as follows:
 
+````
+curl http://bruno-mesosagents.eastus2.cloudapp.azure.com/SimpleRestfulService/rest/azurecourse/query?course=101
+````
+
+![](./images/curl-command.jpg)
+
+_Figure 37:  Running a curl command_
+
+
+  
 
 ## Step 13 of 13 - Viewing, monitoring, and scaling the app through Marathon, Mesos, and the DC/OS Portal
 
