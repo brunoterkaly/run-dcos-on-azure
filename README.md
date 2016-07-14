@@ -162,7 +162,7 @@ sudo apt-get install openssl # install if needed
 ssh-keygen -t rsa -b 2048    # generate the key
 cd ~/.ssh                    # go to the ssh folder
 ls -ltr                      # view generated files
-vim id_rsa.pub               # open up .pub file and copy key
+vim id_rsa.pub               # open up .pub file and copy the key to the clipboard
 ````
 _Code: Obtaining a public SSH key_
 
