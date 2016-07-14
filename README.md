@@ -6,6 +6,8 @@ This is an inspired post. It essentially represents the "aha" moment I had with 
 
 Later in this post we will describe exactly what containers are and the differences between containers and images. For the moment let’s just agree that containers make it very easy to package up web applications and run them against a large distributed cluster.
 
+The beauty about this approach is that it is based on **100% open source software**, meaning that you can take the work here and run it almost anywhere. The Azure specific provisioning of infrastructure is completely abstracted away. The Azure Container Service (ACS) really makes this type of work pain-free and simple. Once again, everything in the **ACS** is **100% open source**.
+
 ### DC/OS - Open Source Cluster Management
 
 DC/OS makes it easy to deploy and run stateful or stateless distributed workloads including Docker containers, Big Data, and traditional apps. DC/OS abstracts your large Azure-based cluster into a single computer, pooling distributed workloads and simplifying rollout and operations.
@@ -701,8 +703,6 @@ curl http://bruno-mesosagents.eastus2.cloudapp.azure.com/SimpleRestfulService/re
 
 _Figure 37:  Running a curl command_
 
-
-  
 
 ## Step 13 of 13 - Viewing, monitoring, and scaling the app through Marathon, Mesos, and the DC/OS Portal
 
