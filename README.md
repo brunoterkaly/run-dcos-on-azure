@@ -64,7 +64,6 @@ When the text editor opens up, you will see the JSON data that is returned by th
 
 _Figure 4:  The actual JSON data that is returned in VIM (the editor)_
 
-
 ## Step 2 of 4 - The tools and technologies that I have installed to make this possible 
 
 There are 3 technologies that I have installed to develop the Java Application.
