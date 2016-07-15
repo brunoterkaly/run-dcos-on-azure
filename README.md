@@ -70,7 +70,7 @@ _Figure 4:  The actual JSON data that is returned in VIM (the editor)_
 There are 3 technologies that I have installed to develop the Java Application.
 
 - **Eclipse Mars (4.52)**
-	- **Purpose:** Java IDE
+	- **Purpose:** Java IDE used to develop solution
 	- **Download:** http://www.eclipse.org/downloads/packages/release/Mars/M1
 - **Apache Maven**
 	- **Purpose:** Maven is a build automation tool used primarily for Java projects
