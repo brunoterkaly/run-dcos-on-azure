@@ -2,11 +2,27 @@
 
 ## Running a Java Based Web Application and a RESTful Service using Jersey
 
+What is amazing about the technologies that we will be talking about is that we can create a Web oriented application, and in a matter of minutes, have that web service running at scale across the cluster. 
+
+The ability to easily leverage a cluster that supports scaling, failure recovery, and a significant degree of automation is one of the most significant breakthroughs in the IT landscape over the past couple years.
+
+Historically, this type of capability was available only to a select few experts. Thankfully for us, this technology has been democratized. I hope to prove how simple it is to build out a Web oriented application and easily scaling across a cluster of virtually any size.
+
+That's the power of the Azure container service and of a DC/OS cluster.
+
+This solution is built on 100% open source technologies.
+
 This is an inspired post. It essentially represents the "aha" moment I had with containers and how amazingly straightforward it was to run restful services across a cluster of almost any size.
 
 Later in this post we will describe exactly what containers are and the differences between containers and images. For the moment let’s just agree that containers make it very easy to package up web applications and run them against a large distributed cluster.
 
 The beauty about this approach is that it is based on **100% open source software**, meaning that you can take the work here and run it almost anywhere. The Azure specific provisioning of infrastructure is completely abstracted away. The Azure Container Service (ACS) really makes this type of work pain-free and simple. Once again, everything in the **ACS** is **100% open source**.
+
+Be sure to see part 1 of this post here:
+
+https://github.com/brunoterkaly/building-restful-service-with-java
+
+
 
 ### DC/OS - Open Source Cluster Management
 
