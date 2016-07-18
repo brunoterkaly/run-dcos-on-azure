@@ -72,6 +72,8 @@ There is also a large contingency in the DevOps space, who view containerization
 
 Even the most simple cluster with DC/OS results in a significant amount of infrastructure being deployed in a public cloud like Azure. If you note in the image below there is a variety of VM’s, load balancers, network interface cards and public IP address and that needs to be provisioned. Likely, as you see in this post, provisioning such a cluster is almost trivial and requires just a few mouse clicks and some basic data input to provision.
 
+In the diagram below you are looking at a Docker Data Center deployment. You will note that a DC/OS deployment is similar in that it will include the typical cluster hardware (VM’s, load balancers, network interface cards and public IP address).
+
 ![](./images/azurefootprint.png)
 
 _Figure 3:  The basic infrastructure for an Azure cluster_
