@@ -821,5 +821,10 @@ _Figure 45: Stopping your running applications_
 
 This has been a VERY big post with a TON of details. We hope it helped you understand how to run web services across a DC/OS cluster in Azure.
 
+For more information, this just in:
+
+http://www.nextplatform.com/2016/07/27/mesos-reaches-milestone-adds-native-docker/
+
+
 
 
